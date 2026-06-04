@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE (local only)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
