@@ -120,4 +120,10 @@ Toggle flags in `constants.js` (uses `RoomVisual` via `debug/visualize.js`):
 | `lib/terrain.js` | Distance transform, passable/cost matrices |
 | `debug/visualize.js` | RoomVisual helpers |
 
+## Future version todo
+
+| Stampless mode | No fastfiller and hub ( or hub only ), plan completely stampless to fit narrower rooms |
+| Road post process | Optimize roads, remote reduntant roads and replace blockers with road for better connectivity |
+| More scoring factor | factors other than mincut tiles, like distance to remote sources |
+| Adjacent room aware planning | Allow input of adjacent room terrain and static intel to plan remote at the same time |
 
