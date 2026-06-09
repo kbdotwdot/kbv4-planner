@@ -123,6 +123,7 @@ Toggle flags in `constants.js` (uses `RoomVisual` via `debug/visualize.js`):
 ## Future version todo
 
 | Feature | Description |
+|------|------|
 | Stampless mode | No fastfiller and hub ( or hub only ), plan completely stampless to fit narrower rooms |
 | Road post process | Optimize roads, remote reduntant roads and replace blockers with road for better connectivity |
 | More scoring factor | factors other than mincut tiles, like distance to remote sources |
